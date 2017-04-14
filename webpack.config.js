@@ -20,6 +20,9 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   devServer: {
+    host: "training.efcocert.org",
+    port: 8080,
+    inline: true,
     historyApiFallback: true,
     contentBase: './'
   }
